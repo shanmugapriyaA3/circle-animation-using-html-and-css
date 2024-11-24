@@ -1,0 +1,110 @@
+
+.circle-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  animation: rotate 10s linear infinite;
+  margin-left: 250px;
+ 
+}
+
+
+
+
+
+#circle1 {
+  background-color: red;
+  top: 10%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  animation: color 4s infinite;
+  animation-delay: 1s;
+  
+ 
+}
+
+#circle2 {
+  background-color: yellow;
+  top: 25%;
+  right: 15%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  animation: color 4s infinite;
+  animation-delay: 2s;
+  
+}
+
+#circle3 {
+  background-color: blue;
+  bottom: 25%;
+  right: 15%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  animation: color 4s infinite;
+  animation-delay: 3s;
+  
+}
+
+#circle4 {
+  background-color: purple;
+  bottom: 10%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  animation: color 4s infinite;
+  animation-delay: 4s;
+  
+}
+
+#circle5 {
+  background-color: orangered;
+  bottom: 25%;
+  left: 15%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  animation: color 4s infinite;
+  animation-delay: 5s;
+  
+}
+
+#circle6 {
+  background-color: palevioletred;
+  top: 25%;
+  left: 15%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  animation: color 4s infinite;
+  animation-delay: 6s;
+  
+}
+
+@keyframes rotate {
+ from {
+  transform: rotate(0deg);
+ }
+ to {
+  transform: rotate(-260deg);
+ }
+}
+
+@keyframes color {
+  10% { background-color: orangered}
+  25% { background-color: darkmagenta; }
+  50% { background-color: brown;}
+  75% {background-color: darkgoldenrod;}
+  100% { background-color: darkslategrey;}
+}
+
